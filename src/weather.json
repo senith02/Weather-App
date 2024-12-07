@@ -1,0 +1,44 @@
+{
+    "coord": {
+        "lon": 79.8883,
+        "lat": 6.87
+    },
+    "weather": [
+        {
+            "id": 804,
+            "main": "Clouds",
+            "description": "overcast clouds",
+            "icon": "04n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 299.65,
+        "feels_like": 299.65,
+        "temp_min": 299.65,
+        "temp_max": 299.65,
+        "pressure": 1011,
+        "humidity": 81,
+        "sea_level": 1011,
+        "grnd_level": 1009
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 0.54,
+        "deg": 144,
+        "gust": 2.41
+    },
+    "clouds": {
+        "all": 100
+    },
+    "dt": 1733582552,
+    "sys": {
+        "country": "LK",
+        "sunrise": 1733532000,
+        "sunset": 1733574254
+    },
+    "timezone": 19800,
+    "id": 1248991,
+    "name": "Nugegoda",
+    "cod": 200
+}

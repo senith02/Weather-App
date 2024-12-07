@@ -18,7 +18,7 @@ p{
   font-size: 1.6rem;
 }
 
-h2{
+h1{
   font-size: 6rem;
 }
 .app{
@@ -27,6 +27,21 @@ h2{
   position: relative;
   background-color: rgba(0, 0, 0, 0.4);
   color: #fff;
+  overflow: hidden;
+}
+
+.app .search{
+  text-align: center;
+  padding: 1rem;
+}
+
+.app input{
+  padding: .7rem 1.5rem;
+  font-size: 1.2rem;
+  border-radius: 25px;
+  border: 1px solid rgba(255,255,255,0.8);
+  background: rgba(255,255,255,0.1);
+  color: rgba(255,255,255);
 }
 
 .app:before{
@@ -40,30 +55,36 @@ h2{
   z-index: -1;
 }
 
-.container{
+.container {
   max-width: 700px;
   max-height: 700px;
-  margin:auto;
+  margin: auto;
   padding: 0 1rem;
   position: relative;
   top: 10%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  gap: 12rem;
 }
 
-.app.description{
+.app .description{
   position: relative;
-  right: -90%; 
+  right: -75%; 
   transform-origin: 0 0;
 }
 
-.app.bottom{
+.app .bottom{
   display: flex;
-  flex-direction: row;
   justify-content: space-evenly;
+  text-align: center;
   border-radius: 12px;
   width: 100%;
   margin: 1rem auto;
+  padding: 1rem;
   background-color: rgba(255,255,255,0.2);
+}
+
+.bold{
+  font-weight: 700;
 }
